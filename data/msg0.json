@@ -1,0 +1,43 @@
+{
+  "id": 916091883,
+  "content": "اتصلات اي فودافون",
+  "account_id": 161638,
+  "inbox_id": 112955,
+  "conversation_id": 1311,
+  "message_type": 0,
+  "created_at": 1791766957,
+  "updated_at": "2026-10-12T01:02:37.981Z",
+  "private": false,
+  "status": "sent",
+  "source_id": "wamid.HBgMMjAxMDM0OTk5MDM1FQIAEhggQUNBQkIwNDJENzk0QjU5ODNFQkZFRENDQkQ1RUNFNUEA",
+  "content_type": "text",
+  "content_attributes": {},
+  "sender_type": "Contact",
+  "sender_id": 1127289682,
+  "external_source_ids": {},
+  "additional_attributes": {},
+  "processed_message_content": "اتصلات اي فودافون",
+  "sentiment": {},
+  "conversation": {
+    "assignee_id": null,
+    "unread_count": 2,
+    "last_activity_at": 1791766957,
+    "contact_inbox": {
+      "source_id": "201034999035"
+    }
+  },
+  "sender": {
+    "additional_attributes": {},
+    "custom_attributes": {},
+    "email": null,
+    "id": 1127289682,
+    "identifier": null,
+    "name": "على",
+    "phone_number": "+201034999035",
+    "thumbnail": "",
+    "blocked": false,
+    "contact_type": "lead",
+    "type": "contact",
+    "company_id": null
+  }
+}

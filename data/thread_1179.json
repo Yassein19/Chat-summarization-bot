@@ -1,0 +1,69 @@
+{
+  "payload": [
+    {
+      "id": 914599060,
+      "content": "السلام عليكم عمار معاك سارة من أكسس باي\nلاحظنا إنك بقالك فترة مش بتستخدم محفظتك فحبيت أتواصل معاك وأعرف لو في حاجة نقدر نساعدك فيها\nولو في أي حاجة في تجربتك معانا محتاجة تتحسن قول لي وأنا هتابعها بنفسي\nوعلى فكرة نزلنالك 50 جنيه هدية 🎁",
+      "inbox_id": 112955,
+      "conversation_id": 1179,
+      "message_type": 1,
+      "content_type": "text",
+      "status": "read",
+      "content_attributes": {},
+      "created_at": 1791699141,
+      "private": false,
+      "source_id": "wamid.HBgMMjAxMjcwNzgzODY4FQIAERgSREJBQUY1QkU2ODc1MkQwODNBAA==",
+      "sender": {
+        "id": 10780,
+        "name": "axis-bot",
+        "avatar_url": "",
+        "type": "agent_bot"
+      }
+    },
+    {
+      "id": 916313521,
+      "content": "وعليكم السلام ورحمة الله وبركاته\nشكرا لحضرتك لا مفيش مشكلة \nشكرا جزيلا",
+      "inbox_id": 112955,
+      "conversation_id": 1179,
+      "message_type": 0,
+      "content_type": "text",
+      "status": "sent",
+      "content_attributes": {},
+      "created_at": 1791781484,
+      "private": false,
+      "source_id": "wamid.HBgMMjAxMjcwNzgzODY4FQIAEhggQUM2NUJFREE1MjBDNEZBMzA0NDZDRjFEQjU2RTZBQzEA",
+      "sender": {
+        "additional_attributes": {},
+        "custom_attributes": {},
+        "email": null,
+        "id": 1127287382,
+        "identifier": null,
+        "name": "عمار",
+        "phone_number": "+201270783868",
+        "thumbnail": "",
+        "blocked": false,
+        "contact_type": "lead",
+        "type": "contact",
+        "company_id": null
+      }
+    },
+    {
+      "id": 916314744,
+      "content": "العفو 🙏",
+      "inbox_id": 112955,
+      "conversation_id": 1179,
+      "message_type": 1,
+      "content_type": "text",
+      "status": "read",
+      "content_attributes": {},
+      "created_at": 1791781544,
+      "private": false,
+      "source_id": "wamid.HBgMMjAxMjcwNzgzODY4FQIAERgSQTg3MjdFMURCODBCNjVBMDk2AA==",
+      "sender": {
+        "id": 10780,
+        "name": "axis-bot",
+        "avatar_url": "",
+        "type": "agent_bot"
+      }
+    }
+  ]
+}

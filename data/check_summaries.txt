@@ -1,0 +1,20 @@
+CHAT_SUMMARIES:
+ID=1179 agent=axis-bot
+SUMMARY: Whole chat with عمار (+201270783868) handled by axis-bot: 1 customer / 2 bot messages from opener 'السلام عليكم عمار معاك سارة من أكسس باي لاحظنا إنك بقالك فترة مش بتستخدم محفظتك فحبيت أتواصل معاك وأعرف لو في حاجة نقدر ' through customer 'وعليكم السلام ورحمة الله وبركاته شكرا لحضرتك لا مفيش مشكلة شكرا جزيلا' to last 'العفو 🙏'.
+
+AGENT_SUMMARY first5:
+ID=1179 agent=axis-bot
+SUMMARY: Whole chat with عمار (+201270783868) handled by axis-bot: 1 customer / 2 bot messages from opener 'السلام عليكم عمار معاك سارة من أكسس باي لاحظنا إنك بقالك فترة مش بتستخدم محفظتك فحبيت أتواصل معاك وأعرف لو في حاجة نقدر ' through customer 'وعليكم السلام ورحمة الله وبركاته شكرا لحضرتك لا مفيش مشكلة شكرا جزيلا' to last 'العفو 🙏'.
+
+ID=1022 agent=axis-bot
+SUMMARY: Whole chat with عرفات (+201028622474) handled by axis-bot: 1 customer / 2 bot messages from opener 'السلام عليكم عرفات معاك سارة من أكسس باي لاحظنا إنك بقالك فترة مش بتستخدم محفظتك فحبيت أتواصل معاك وأعرف لو في حاجة نقدر' through customer 'تمام متشكر جداً لحضرتك' to last 'العفو 🙏'.
+
+ID=396 agent=axis-bot
+SUMMARY: Whole chat with محمد (+201118307129) handled by axis-bot: 3 customer / 5 bot messages from opener 'السلام عليكم محمد معاك سارة من أكسس باي لاحظنا إنك بقالك فترة مش بتستخدم محفظتك فحبيت أتواصل معاك وأعرف لو في حاجة نقدر ' through customer 'تمام يا استاذه ساره' to last 'العفو 🙏'.
+
+ID=1071 agent=axis-bot
+SUMMARY: Whole chat with عثمان (+201222650591) handled by axis-bot: 3 customer / 7 bot messages from opener 'السلام عليكم عثمان معاك سارة من أكسس باي لاحظنا إنك بقالك فترة مش بتستخدم محفظتك فحبيت أتواصل معاك وأعرف لو في حاجة نقدر' through customer 'شكرا' to last 'خلاص تمام 😊'.
+
+ID=1653 agent=axis-bot
+SUMMARY: Whole chat with خميس (+201143785571) handled by axis-bot: 2 customer / 5 bot messages from opener 'السلام عليكم خميس معاك سارة من أكسس باي لاحظنا إنك بقالك فترة مش بتستخدم محفظتك فحبيت أتواصل معاك وأعرف لو في حاجة نقدر ' through customer 'هي المحفظة شغاله' to last 'لسه معايا؟'.
+

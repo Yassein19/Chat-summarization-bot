@@ -1,0 +1,107 @@
+rows=25
+keys=['conversation_id', 'customer_name', 'mobile_number', 'agent_name', 'conversation_date', 'english_summary', 'customer_problem', 'main_intent', 'customer_message_count', 'bot_response_count', 'chatbot_understanding', 'response_quality', 'customer_sentiment', 'resolution_status', 'main_failure', 'evidence', 'recommended_improvement']
+
+ID=1614 mob=+201210989740 agent=axis-bot und=Good qual=Good sent=satisfied res=resolved fail=
+  SUMMARY: The customer was confused about the Access Pay wallet and asked for clarification, receiving a brief explanation from the bot
+  INTENT: Inquiry about the Access Pay wallet | PROBLEM: Customer is confused about what the wallet is and whether the phone number is linked to it
+
+ID=1179 mob=+201270783868 agent=axis-bot und=Good qual=Good sent=satisfied res=resolved fail=
+  SUMMARY: The customer thanked the bot, said there was no problem, and concluded the chat.
+  INTENT: Express gratitude / no assistance needed | PROBLEM: No problem, just thanks
+
+ID=1022 mob=+201028622474 agent=axis-bot und=Good qual=Good sent=satisfied res=resolved fail=
+  SUMMARY: The customer thanked the bot for the outreach and the 50 EGP gift, with no further issue.
+  INTENT: express gratitude | PROBLEM: None
+
+ID=396 mob=+201118307129 agent=axis-bot und=Good qual=Good sent=satisfied res=resolved fail=
+  SUMMARY: The customer reported that most of their transactions have moved to InstaPay, causing their wallet usage to drop, and they thanked the bot for the offered gift.
+  INTENT: provide feedback on decreased wallet usage | PROBLEM: customer reports that most transactions have shifted to InstaPay, so wallet usage has decreased
+
+ID=1071 mob=+201222650591 agent=axis-bot und=Partial qual=Partial sent=satisfied res=unresolved fail=Gave irrelevant password‑reset instructions and did not address the user’s inability to use the app on a laptop
+  SUMMARY: The customer explained they stopped using the wallet due to a broken phone and reliance on a laptop, and they accepted the bot's suggestions without further issue
+  INTENT: Provide feedback about why not using the wallet | PROBLEM: Stopped using the wallet because the phone is broken and the user is working from a laptop
+
+ID=1653 mob=+201143785571 agent=axis-bot und=Good qual=Good sent=neutral res=resolved fail=
+  SUMMARY: The customer confirmed the wallet works and asked for the app download link, which the bot provided.
+  INTENT: request_app_download_link | PROBLEM: customer thinks the app was deleted and needs the download link
+
+ID=984 mob=+201002042451 agent=axis-bot und=Good qual=Good sent=satisfied res=resolved fail=
+  SUMMARY: The customer thanked the bot, asked for usage instructions and the app download link because they didn’t have the app, received the link and expressed thanks
+  INTENT: Request usage instructions and app download link | PROBLEM: Customer does not have the Access Pay app installed and wants guidance on how to use the 50 EGP gift and where to downlo
+
+ID=1385 mob=+201131180405 agent=axis-bot und=Good qual=Good sent=satisfied res=unresolved fail=Unnecessary repetition of the same answer about owner requirement
+  SUMMARY: The customer reported that their wallet isn’t activated on their phone and they can’t withdraw 150 EGP, asking whether only the wallet owner can activate and withdraw, and received clarification from the bot.
+  INTENT: Wallet activation and withdrawal eligibility | PROBLEM: Wallet not activated on phone and cannot withdraw 150 EGP, asks if only the wallet owner can activate and withdraw
+
+ID=1628 mob=+201110629312 agent=axis-bot und=Poor qual=Poor sent=dissatisfied res=unresolved fail=Bot failed to address the specific request about My Telecom wallet creation and gave irrelevant information
+  SUMMARY: The customer asked how to create and activate a wallet on My Telecom, but the bot only gave unrelated advice about using Access Pay and suggested visiting a branch, leaving the request unresolved.
+  INTENT: Create/activate a wallet on My Telecom | PROBLEM: Customer wants to know how to create and activate a wallet on My Telecom
+
+ID=887 mob=+201284747843 agent=axis-bot und=Good qual=Good sent=satisfied res=resolved fail=Reward not immediately visible; bot did not verify or expedite the reward
+  SUMMARY: The customer reported that the promised 50 EGP gift was missing from the rewards section, but later confirmed it was received after the bot’s guidance.
+  INTENT: claim missing reward | PROBLEM: promised 50 EGP gift not visible in rewards section and points balance unchanged
+
+ID=1077 mob=+201002971257 agent=axis-bot und=Good qual=Good sent=satisfied res=resolved fail=
+  SUMMARY: The customer said the wallet works fine, praised it, noted they currently only use InstaPay, and plans to try more transactions after the bot informed them about the 50 EGP reward
+  INTENT: positive feedback and intention to increase wallet usage | PROBLEM: no issues reported, but currently only uses InstaPay and wants to try more transactions with the wallet
+
+ID=1108 mob=+201090517136 agent=axis-bot und=Good qual=Good sent=neutral res=resolved fail=
+  SUMMARY: The customer greeted the bot, said there is no problem, and the conversation ended without any issue.
+  INTENT: acknowledge_no_issue | PROBLEM: no problem reported
+
+ID=1685 mob=+201000047680 agent=axis-bot und=Partial qual=Partial sent=neutral res=unresolved fail=Bot kept pushing the wallet opening process despite the customer’s lack of interest and did not address the specific situation of having an existing bank wallet
+  SUMMARY: The customer said they were not interested, asked what to do, and noted they already have a bank wallet, but the bot did not provide a clear solution
+  INTENT: Inquiry about how to proceed with Access Pay given an existing bank wallet | PROBLEM: Customer said they are not interested, asked "what should I do", and mentioned they already have a bank wallet
+
+ID=1088 mob=+201093683821 agent=axis-bot und=Good qual=Good sent=satisfied res=resolved fail=Initial response about a 50 EGP reward was irrelevant to the customer's request for app usage help
+  SUMMARY: The customer said she couldn’t use the app, asked for the download link and password reset steps, received the link and instructions, then managed to open and use the app and expressed thanks
+  INTENT: Help with using the app and resetting password | PROBLEM: Customer doesn't know how to use the app, needs the download link and a password reset code
+
+ID=1111 mob=+201010765573 agent=axis-bot und=Good qual=Good sent=satisfied res=resolved fail=
+  SUMMARY: The customer said there is nothing needed, thanked the bot for the attention and felt satisfied, while the bot offered help and explained the gift redemption
+  INTENT: No assistance needed / thank you | PROBLEM: None reported, customer said there is nothing needed
+
+ID=967 mob=+201061961259 agent=axis-bot und=Partial qual=Partial sent=dissatisfied res=unresolved fail=Bot repeatedly gave the same generic policy without directly addressing the customer's specific concern or providing reassurance
+  SUMMARY: The customer was confused and upset about the wallet possibly closing after three months of inactivity despite using it monthly, sought clarification, and ultimately accepted the bot's repeated explanation without a clear resolution
+  INTENT: Clarify wallet closure policy | PROBLEM: Customer is confused and upset about being told the wallet may close after three months of inactivity even though they u
+
+ID=1069 mob=+201200264836 agent=axis-bot und=Good qual=Good sent=neutral res=unresolved fail=
+  SUMMARY: The customer asked how to receive the 50 EGP gift and expressed uncertainty, and the bot explained it must be redeemed in the rewards section of the app
+  INTENT: claim_reward | PROBLEM: wants to receive the 50 EGP gift and is unsure how to do it
+
+ID=1040 mob=+201120635253 agent=axis-bot und=Partial qual=Partial sent=neutral res=unresolved fail=Repeated irrelevant gift promotion and did not fully address the security concern about the locked wallet
+  SUMMARY: The customer reported that their wallet keeps getting locked, forcing them to change the password and causing security concerns, and they sought a solution.
+  INTENT: Password reset / wallet locked issue | PROBLEM: المحفظه كل فترة بتقفل وارجع اغير رقم السر وبخاف احد يرسل لي شيء
+
+ID=881 mob=+201114007983 agent=axis-bot und=Good qual=Good sent=neutral res=resolved fail=Bot repeated the same information multiple times, causing redundancy
+  SUMMARY: The customer asked where the 50 EGP gift is and how to claim it, and the bot explained it is in the app's rewards section and must be redeemed
+  INTENT: Inquiry about location and redemption of the 50 EGP gift | PROBLEM: Customer cannot find the 50 EGP gift and asks where it is and how to claim it
+
+ID=1676 mob=+201000017750 agent=axis-bot und=Good qual=Good sent=neutral res=resolved fail=
+  SUMMARY: The customer asked for the steps to open an Access Pay wallet and the bot supplied a step‑by‑step guide
+  INTENT: Request steps to open an Access Pay wallet | PROBLEM: Customer wants a clear guide on how to open the wallet
+
+ID=1214 mob=+201282237847 agent=axis-bot und=Good qual=Good sent=neutral res=resolved fail=
+  SUMMARY: The customer said there’s no issue, will begin using the wallet, and noted the 50 EGP gift, with the bot confirming the details.
+  INTENT: No assistance needed / acknowledgement | PROBLEM: User reports no problem and will start using the wallet
+
+ID=1144 mob=+201091512836 agent=axis-bot und=Partial qual=Partial sent=dissatisfied res=unresolved fail=Bot gave generic troubleshooting without addressing the specific app failure or offering a concrete escalation, and failed to handle the request for a call
+  SUMMARY: The customer wanted to activate their wallet, went to a branch, but the app wouldn't work on their phone and they remain unable to activate it, while the bot offered generic troubleshooting
+  INTENT: Activate wallet | PROBLEM: Customer tried to activate the wallet, visited a branch, but the app says it won't work on their phone and they cannot g
+
+ID=932 mob=+201282351620 agent=axis-bot und=Good qual=Good sent=satisfied res=resolved fail=
+  SUMMARY: The customer complained that Access Pay’s commission rate is very high, but then expressed confidence that Access Pay is the best and said they will continue using it.
+  INTENT: complaint about high commission fees | PROBLEM: high commission rate in Access Pay
+
+ID=1475 mob=+201114213124 agent=axis-bot und=Partial qual=Partial sent=neutral res=unresolved fail=Bot failed to acknowledge the customer’s wallet creation and did not confirm stopping the messages
+  SUMMARY: The customer said they didn’t have a wallet, later noted they created one at Cairo station, and wanted the bot to stop sending messages, but the bot did not confirm this action
+  INTENT: stop messages / clarify wallet status | PROBLEM: Customer initially said they don't have an Access Pay wallet, then mentioned creating one at Cairo station and wants the
+
+ID=1554 mob=+201220992399 agent=axis-bot und=Good qual=Good sent=satisfied res=resolved fail=None
+  SUMMARY: The customer asked whether the 15,000 reward points could be exchanged for 50 EGP and how to redeem them, and the bot confirmed the conversion and redemption steps, leaving the customer satisfied
+  INTENT: Inquiry about reward points conversion and redemption | PROBLEM: Customer saw 15,000 points shown as Available and Redeemed, could not take a screenshot, and asked if those points could
+
+AGG chatbot_understanding: {'Good': 18, 'Partial': 6, 'Poor': 1}
+AGG response_quality: {'Good': 18, 'Partial': 6, 'Poor': 1}
+AGG customer_sentiment: {'satisfied': 13, 'neutral': 9, 'dissatisfied': 3}
+AGG resolution_status: {'resolved': 16, 'unresolved': 9}

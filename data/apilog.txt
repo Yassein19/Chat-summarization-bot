@@ -1,0 +1,14 @@
+200 POST https://chatwoot-sending-templates-production.up.railway.app/api/auth/login
+200 GET https://chatwoot-sending-templates-production.up.railway.app/api/auth/me
+200 GET https://chatwoot-sending-templates-production.up.railway.app/api/8/analytics/overview
+200 GET https://chatwoot-sending-templates-production.up.railway.app/api/organizations
+200 GET https://chatwoot-sending-templates-production.up.railway.app/api/auth/me
+200 GET https://www.wootify.online/conversations
+403 GET https://chatwoot-sending-templates-production.up.railway.app/api/organizations/8/chatwoot-configs
+403 GET https://chatwoot-sending-templates-production.up.railway.app/api/auth/me
+200 GET https://chatwoot-sending-templates-production.up.railway.app/api/organizations/8/chatwoot-configs
+200 GET https://chatwoot-sending-templates-production.up.railway.app/api/auth/me
+200 GET https://chatwoot-sending-templates-production.up.railway.app/api/8/chatwoot-configs/7/agents
+200 GET https://chatwoot-sending-templates-production.up.railway.app/api/inboxes/8/7
+200 GET https://chatwoot-sending-templates-production.up.railway.app/api/8/chatwoot-configs/7/conversations?status=open&page=1
+200 GET https://chatwoot-sending-templates-production.up.railway.app/api/8/chatwoot-configs/7/agent-stats
