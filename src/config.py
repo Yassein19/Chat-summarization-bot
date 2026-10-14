@@ -39,9 +39,9 @@ def llm_provider() -> str:
 
 # OpenRouter multi-agent (https://openrouter.ai): agent1 retrieves customer facts,
 # agent2 summarizes (customer-centric) + evaluates the bot. OpenAI-compatible API.
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY") or os.getenv("OPEN_ROUTER_API_KEY", "")
 OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
-OPENROUTER_RETRIEVER_MODEL = os.getenv("OPENROUTER_RETRIEVER_MODEL", "meta-llama/llama-3.1-8b-instant")
+OPENROUTER_RETRIEVER_MODEL = os.getenv("OPENROUTER_RETRIEVER_MODEL", "meta-llama/llama-3.1-8b-instruct")
 OPENROUTER_SUMMARIZER_MODEL = os.getenv("OPENROUTER_SUMMARIZER_MODEL", "openai/gpt-oss-120b")
 OPENROUTER_SITE_URL = os.getenv("OPENROUTER_SITE_URL", "https://www.wootify.online")
 OPENROUTER_APP_TITLE = os.getenv("OPENROUTER_APP_TITLE", "wootify-analyzer")

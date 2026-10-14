@@ -21,6 +21,9 @@ import sys
 import time
 from pathlib import Path
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 import pandas as pd
 
 from src import config
@@ -183,7 +186,10 @@ def run_master(statuses=("open", "pending", "resolved"), limit_per_status: int =
                 if cid is None:
                     continue
                 if cid in merged:
-                    continue  # resume-friendly: skip already-saved IDs (does not consume limit)
+                    prev = merged[cid]
+                    # If already analyzed with LLM, skip
+                    if prev.get("main_intent") != "(heuristic - needs LLM review)" and prev.get("chatbot_understanding") not in ("Unclear", ""):
+                        continue
                 try:
                     msgs = client.get_messages(cid)
                     if not msgs:
@@ -194,8 +200,10 @@ def run_master(statuses=("open", "pending", "resolved"), limit_per_status: int =
                     if len(merged) % 5 == 0:
                         _save()
                         log.info(f"checkpoint saved: {len(merged)} rows")
-                    if config.llm_provider() in ("groq", "openrouter"):
+                    if config.llm_provider() == "groq":
                         time.sleep(5)
+                    elif config.llm_provider() == "openrouter":
+                        time.sleep(1)
                 except Exception as e:
                     log.error(f"conv {cid} error: {type(e).__name__}: {str(e)[:200]}")
                     errors += 1
@@ -212,11 +220,11 @@ def run_master(statuses=("open", "pending", "resolved"), limit_per_status: int =
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "all":
         # usage: python retrieve_agent_summary.py all [start_page] [limit_per_status] [statuses csv] [max_pages]
-        # e.g. all 2 25 resolved | all 3 50 pending | all 3 1625 pending 70 (full backlog)
+        # e.g. all 1 2000 "open,pending,resolved" 80
         sp = int(sys.argv[2]) if len(sys.argv) > 2 else 1
-        lim = int(sys.argv[3]) if len(sys.argv) > 3 else 25
+        lim = int(sys.argv[3]) if len(sys.argv) > 3 else 2000
         sts = tuple(s.strip() for s in sys.argv[4].split(",")) if len(sys.argv) > 4 else ("open", "pending", "resolved")
-        mp = int(sys.argv[5]) if len(sys.argv) > 5 else 20
+        mp = int(sys.argv[5]) if len(sys.argv) > 5 else 80
         print(run_master(statuses=sts, start_page=sp, limit_per_status=lim, max_pages=mp))
     else:
         lim = int(sys.argv[1]) if len(sys.argv) > 1 else 20

@@ -12,9 +12,15 @@ class WootifyClient:
 
     def _req(self, method, url, **kw):
         config.assert_readonly(method, url)
-        for attempt in range(3):
+        for attempt in range(4):
             try:
                 r = self.c.request(method, url, **kw)
+                if r.status_code == 401 and "/api/auth/login" not in url:
+                    log.info("Token expired (401), refreshing login...")
+                    self.login()
+                    if "headers" in kw and isinstance(kw["headers"], dict):
+                        kw["headers"]["Authorization"] = f"Bearer {self.token}"
+                    continue
                 if r.status_code in (429, 500, 502, 503, 504):
                     time.sleep(2 ** attempt)
                     continue
